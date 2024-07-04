@@ -12,6 +12,12 @@ import Layout from '../layouts/Layout.astro';
     qui dolorum odit, omnis ipsam asperiores dolor molestias est totam.
   </p>
   <a href="/b">page B </a>
-  <Image transition:name="hero" src={Hero} alt="some image" width={200} />
+  <Image
+    style="view-transition-groud:h"
+    transition:name="hero"
+    src={Hero}
+    alt="some image"
+    width={200}
+  />
   <img src="/hero.png" alt="" transition:name="hero2" style="width:200px" />
 </Layout>
