@@ -23,14 +23,3 @@ const { title } = Astro.props;
   <a href="/b">page B</a>
   <slot />
 </body>
-<style is:global>
-  ::view-transition-old(hero) {
-    animation: none;
-  }
-  ::view-transition-old(hero2) {
-    animation: none;
-  }
-  /* ::view-transition-global(h) {
-    animation: none;
-  } */
-</style>

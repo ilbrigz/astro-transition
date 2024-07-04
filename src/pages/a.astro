@@ -13,11 +13,18 @@ import Layout from '../layouts/Layout.astro';
   </p>
   <a href="/b">page B </a>
   <Image
-    style="view-transition-groud:h"
+    style="view-transition-group:h"
     transition:name="hero"
+    transition:animate="initial"
     src={Hero}
     alt="some image"
     width={200}
   />
-  <img src="/hero.png" alt="" transition:name="hero2" style="width:200px" />
+  <img
+    src="/hero.png"
+    alt=""
+    transition:animate="initial"
+    transition:name="hero2"
+    style="width:200px"
+  />
 </Layout>
