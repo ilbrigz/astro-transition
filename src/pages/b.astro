@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import Hero from '../assets/hero.png';
+---
+
+<Layout title="B page">
+  <Image transition:name="hero" width={400} src={Hero} alt="ehhhl" />
+  <img src="/hero.png" alt="" transition:name="hero2" style="width:400px" />
+
+  <h1>B Page</h1>
+  <p class="desc">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, at.
+    Exercitationem voluptatibus fuga animi modi delectus. Asperiores pariatur
+    totam corporis nihil laboriosam dolorum numquam quibusdam. Nulla provident
+    pariatur vel itaque?
+  </p>
+</Layout>
